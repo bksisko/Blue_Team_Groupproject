@@ -1,0 +1,13 @@
+  Part 1 Discussion:
+The beta and gamma parameters affect the behavior of the graphs in the  following way: as beta increases,
+the rate that individuals infected spikes increases more quickly and as gamma increases, the amount of 
+time for total recovery to be reached decreases. If both values increase then the total time it takes for
+the disease to run its course and immunity to be obtained decreases. This intuitively matches my expectations
+because a disease with a quicker rate of transmission but the same rate of recovery will end up going through
+the population quicker as the total population in recovery at a given time before the spike in infections will
+be greater. The same reasoning holds for the recovery rate, if the transmission rate is kept constant but the
+recovery rate is increased then the amount of recovered individuals at a given time will be greater then the
+same time for a lower recovery rate. 
+
+  Part 2 Discussion: 
+The quadratic interpolation method finds a smaller error for recovered individuals but larger error for susceptible and infected individuals.  
