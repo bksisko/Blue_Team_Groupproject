@@ -1,5 +1,5 @@
   Part 1 Discussion:
-The beta and gamma parameters affect the behavior of the graphs in the  following way: as beta increases,
+The beta and gamma parameters affect the behavior of the graphs in the following way: as beta increases,
 the rate that individuals infected spikes increases more quickly and as gamma increases, the amount of 
 time for total recovery to be reached decreases. If both values increase then the total time it takes for
 the disease to run its course and immunity to be obtained decreases. This intuitively matches my expectations
