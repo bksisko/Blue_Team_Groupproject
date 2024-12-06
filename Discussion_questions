@@ -20,3 +20,23 @@ This is because most of the disease transmission happens in the first 10 days, a
 makes the model simpler and more accurate for estimating B. Using more days adds complexity as the diseases
 behavior changes, which makes estimating B harder. Therefore, fewer days hurt the accuracy of I(0) but make B 
 easier to estimate.
+
+Part 4 Discussion:
+  When we plotted the S(t), I(t), and R(t) graphs with periodic beta (transmission rate), we noticed consistent fluctuations in
+the infected population. These fluctuations were noticeable in the peaks and valleys of each curve with S(t) resembling a cosine function,
+gradually decreasing with periodic dips as individuals become infected. I(t) resembles a sine function, reflecting a lagged impact from
+periodic beta. As beta peaks during the day, it drives a peak in I(t). R(t), too, resembles a sine function, also highlighting its
+lagged impact from beta as well as I(t). In short, all curves are interrelated, but beta drives the SIR model. S(t) and R(t) have minor
+fluctuations from beta due to their reliance on I(t). The periodic relationship of S(t) decreasing, I(t) growing due to beta, and R(t) 
+increasing shows the effects of daily variations in transmission of the virus -- and ultimately, the wave-like behavior of the populations over time.
+  In plotting the spectrum for I(t) and observing its frequency peaks, there's a clear peak due to periodic beta initially which then
+exponentially decreases with respect to frequency. This seems to suggest that while beta varies by day, the infected population's
+fluctuations eventually smooth out due to some form of dampening effect. This does make some sense, considering the interrelatedness 
+described previously of all curves. While beta is a primary driver, the lagging effects of S(t) and R(t) may be what's causing this
+dampening effect.
+  When we repeated the steps for this part with a lower omega value, we noticed a decrease in the amplitude of the lowest frequency peak primarily.
+However, it should be noted that there is, as expected, a shift to a lower frequency range as expected with a decrease in omega.
+Furthermore, additional smaller peaks have emerged at the lower frequency range. This seems to suggest that while the periodic behavior
+remains in the low-frequency range, its dynamics have become more complex leading to the partial dampening and emergence of the smaller
+peaks. Thus, the relationship between the new periodic beta is more nuanced, which would make sense in the real world. The drivers
+of infection may be capturing multi-day patterns and other dynamics that are simply more difficult to model.
