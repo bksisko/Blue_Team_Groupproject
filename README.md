@@ -20,3 +20,4 @@ MAE 384: Advanced Mathematical Methods for Engineers Fall 2024
 group. Additionally, for each contributor, click on “commits” and include screenshots of detailed
 history of contributions for each member of the group
  
+ 
