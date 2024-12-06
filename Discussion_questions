@@ -19,5 +19,4 @@ errors have a bigger impact. On the other hand, the estimate of B, the transmiss
 This is because most of the disease transmission happens in the first 10 days, and using just this period 
 makes the model simpler and more accurate for estimating B. Using more days adds complexity as the disease’s
 behavior changes, which makes estimating B harder. Therefore, fewer days hurt the accuracy of I(0) but make B 
-easier
-to estimate.
+easier to estimate.
