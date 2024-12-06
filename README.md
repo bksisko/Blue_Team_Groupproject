@@ -7,7 +7,7 @@ The project will integrate the following topics:
 3. Least Squares.
 4. Fourier Analysis.
 
-
+ 
 All published MATLAB codes.
 2. All plots as required by assignment.
 3. All discussions and answers to questions (typed).
