@@ -8,7 +8,7 @@ the population quicker as the total population in recovery at a given time befor
 be greater. The same reasoning holds for the recovery rate, if the transmission rate is kept constant but the
 recovery rate is increased then the amount of recovered individuals at a given time will be greater then the
 same time for a lower recovery rate. 
-
+ 
   Part 2 Discussion: 
 The quadratic interpolation method finds a smaller error for recovered individuals but larger error for susceptible and infected individuals.  
 
