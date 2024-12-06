@@ -11,7 +11,7 @@ The project will integrate the following topics:
 All published MATLAB codes.
 2. All plots as required by assignment.
 3. All discussions and answers to questions (typed).
-4. Documentation of GigHub collaboration, including:
+4. Documentation of GigHub collaboration, including: 
 (a) A screenshot of the main page of the project showing all uploaded files.
 (b) A screenshot showing the content of the README file
 1 of 5
