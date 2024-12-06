@@ -11,3 +11,12 @@ same time for a lower recovery rate.
 
   Part 2 Discussion: 
 The quadratic interpolation method finds a smaller error for recovered individuals but larger error for susceptible and infected individuals.  
+
+  Part 3 Discussion:
+Using 10 days of data instead of 30 affects the estimates of I(0) and B differently. The estimate of I(0) 
+doesn’t get better because there are fewer data points, making it harder to get an accurate fit, and small
+errors have a bigger impact. On the other hand, the estimate of B, the transmission rate, actually improves.
+This is because most of the disease transmission happens in the first 10 days, and using just this period 
+makes the model simpler and more accurate for estimating B. Using more days adds complexity as the disease’s
+behavior changes, which makes estimating B harder. So fewer days hurt the accuracy of I(0) but make B easier
+to estimate.
